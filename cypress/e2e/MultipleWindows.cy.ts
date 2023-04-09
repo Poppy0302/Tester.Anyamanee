@@ -1,5 +1,5 @@
 describe('Go to Page Multiple Windows', () => {
-    it('Click Choose file', () => {
+    it('Click Multiple Windows', () => {
         cy.visit('https://the-internet.herokuapp.com/')
         cy.contains('Welcome to the-internet')
         cy.get('[href="/windows"]').contains('Multiple Windows').click()
